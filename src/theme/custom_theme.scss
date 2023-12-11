@@ -1,0 +1,145 @@
+@import "/src/theme/theme_variables";
+
+.bg-secondary {
+  //background: $secondaryColor;
+}
+
+.close-button {
+  top: -27px;
+  right: -25px;
+}
+
+@media screen and (max-width: 680px) {
+  .close-button {
+    top: -4.5vw;
+    right: -4.5vw;
+  }
+}
+
+.text-mini {
+  font-size: $miniFontSize;
+}
+
+.text-small {
+  font-size: $smallFontSize;
+}
+
+.text-medium {
+  font-size: $mediumFontSize;
+}
+
+.text-default {
+  font-size: $defaultFontSize;
+}
+
+.text-sub-title {
+  font-size: $subTitleFontSize;
+}
+
+.text-title {
+  font-size: $titleFontSize;
+}
+
+.text-sub-header {
+  font-size: $subHeaderFontSize;
+}
+
+.text-header {
+  font-size: $headerFontSize;
+}
+
+.marketing-hero-header{
+  font-size: 42px;
+}
+
+.marketing-content-header{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .marketing-hero-header{
+    font-size: 38px;
+  }
+
+  .marketing-content-header{
+    font-size: 30px;
+  }
+
+  .text-mini {
+    font-size: $miniFontSize;
+  }
+
+  .text-small {
+    font-size: $smallFontSize;
+  }
+
+  .text-medium {
+    font-size: $mediumFontSize;
+  }
+
+  .text-default {
+    font-size: $defaultFontSize;
+  }
+
+  .text-sub-title {
+    font-size: $subTitleFontSize;
+  }
+
+  .text-title {
+    font-size: $titleFontSize;
+  }
+
+  .text-sub-header {
+    font-size: $subHeaderFontSize;
+  }
+
+  .text-header {
+    font-size: $headerFontSize;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .marketing-hero-header{
+    font-size: 34px;
+  }
+
+  .marketing-content-header{
+    font-size: 26px;
+  }
+
+  .text-mini {
+    font-size: $miniFontSize;
+  }
+
+  .text-small {
+    font-size: $smallFontSize;
+  }
+
+  .text-medium {
+    font-size: $mediumFontSize;
+  }
+
+  .text-default {
+    font-size: $defaultFontSize;
+  }
+
+  .text-sub-title {
+    font-size: $subTitleFontSize - 2;
+  }
+
+  .text-title {
+    font-size: $titleFontSize;
+  }
+
+  .text-sub-header {
+    font-size: $subHeaderFontSize;
+  }
+
+  .text-header {
+    font-size: $headerFontSize;
+  }
+
+}
