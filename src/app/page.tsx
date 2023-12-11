@@ -54,8 +54,8 @@ export default function Home() {
 
                 <div className="w-full primary-bg-50 responsive-container" style={{overflowX: 'hidden'}}>
 
-                    <div className="grid mx-0 px-0 pb-7 pt-8">
-                        <div className="xl:col-6 mx-0 px-0 col-12">
+                    <div className="grid mx-0  pb-7 pt-8">
+                        <div className="xl:col-6 col-12">
                             <div>
 
                                 <div className='marketing-hero-header text-primary line-height-2 font-semibold'>
@@ -84,7 +84,7 @@ export default function Home() {
 
                             </div>
                         </div>
-                        <div className="xl:col-6 mx-0 px-0 col-12">
+                        <div className="xl:col-6 col-12">
                             {/*<img className='w-full h-30rem'*/}
                             {/*     src="/public/placeholder.png" alt="banner"/>*/}
                             <Image src={'/noun-image-placeholder.svg'}
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="responsive-container">
                 <div>
                     <div className='bg-white grid py-8 justify-content-center'>
-                        <div className={'text-center lg:col-6 col-12 px-0 mx-0'}>
+                        <div className={'text-center lg:col-6 col-12'}>
                             <div className='marketing-content-header'>
                                 Everything You Need to Foster Sustainable Productivity
                             </div>
@@ -325,7 +325,8 @@ export default function Home() {
                         </div>
 
                         <div className='lg:col-10 col-12 grid justify-content-end'>
-                            <div className='lg:col-5 col-12 flex justify-content-end text-sm gap-6'>
+                            <div
+                                className='lg:col-5 col-12 xl:flex block xl:px-0 px-6 justify-content-end text-sm gap-6'>
                                 <div>
                                     <p>About Us</p>
                                 </div>
@@ -432,26 +433,28 @@ export default function Home() {
 
                             <div className='lg:col-4 col-12'>
                                 <div className='ml-6 w-12rem h-5rem'>
-                                    <p>3739 Balboa St #1067 San Francisco, California 94121</p>
+                                    <p>Baroda</p>
                                 </div>
                             </div>
 
                             <div className='lg:col-8 col-12 grid'>
-                                <div className='col-12 flex justify-content-end text-xs cursor-pointer'>
-                                    <div className='col-2'>
-                                        <p>Terms of Use</p>
-                                    </div>
-                                    <div className='col-2'>
-                                        <p>Privacy Policy</p>
-                                    </div>
-                                    <div className='col-2'>
-                                        <p>Acceptable Use Policy</p>
-                                    </div>
-                                    <div className='col-2'>
-                                        <p>System Status</p>
-                                    </div>
-                                    <div className='col-2'>
-                                        <p>Developer Platform</p>
+                                <div className='col-12 flex xl:justify-content-end text-xs cursor-pointer'>
+                                    <div className="grid xl:px-0 px-6">
+                                        <div className='xl:col-2 col-12'>
+                                            <p>Terms of Use</p>
+                                        </div>
+                                        <div className='xl:col-2 col-12'>
+                                            <p>Privacy Policy</p>
+                                        </div>
+                                        <div className='xl:col-2 col-12'>
+                                            <p>Acceptable Use Policy</p>
+                                        </div>
+                                        <div className='xl:col-2 col-12'>
+                                            <p>System Status</p>
+                                        </div>
+                                        <div className='xl:col-2 col-12'>
+                                            <p>Developer Platform</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
