@@ -473,7 +473,7 @@ export default function Home() {
 
                             <div className='lg:col-6 col-12 flex justify-content-end'>
                                 <div className='text-sm ml-auto mr-6'>
-                                    <p>© 2023 Insightful.io, Inc - All Rights Reserved</p>
+                                    <p>© 2023 Infomover.io, Inc - All Rights Reserved</p>
                                 </div>
                             </div>
 
