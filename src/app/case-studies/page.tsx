@@ -324,7 +324,7 @@ export default function CaseStudies() {
                 <div className={'bg-secondary text-white mt-8'}>
                     <div className={'case-responsive-container'}>
                         <div className={'grid align-items-center py-8'}>
-                            <div className={'lg:col-10 col-12'}>
+                            <div className={'lg:col-9 col-12'}>
                                 <div className={'marketing-hero-header'}>
                                     Liked what you read?
                                 </div>
@@ -332,7 +332,7 @@ export default function CaseStudies() {
                                     Do you have a project that you need help with ?
                                 </div>
                             </div>
-                            <div className={'lg:col-2 col-12'}>
+                            <div className={'lg:col-3 col-12'}>
                                 <Button className={'text-sm font-light'} label={'Want to start a project'}
                                         icon="pi     pi-arrow-right" iconPos="right"></Button>
                             </div>
