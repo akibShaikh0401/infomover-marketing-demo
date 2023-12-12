@@ -144,7 +144,7 @@ export default function CaseStudies() {
                     </div>
                 </div>
 
-                <div className="grid case-responsive-container">
+                <div className="grid case-responsive-container pt-8">
                     <div className="lg:col-3 col-12">
 
                     </div>
@@ -251,7 +251,7 @@ export default function CaseStudies() {
                     </div>
                 </div>
 
-                <div className="grid case-responsive-container">
+                <div className="grid case-responsive-container pt-8">
                     <div className="lg:col-3 col-12">
 
                     </div>
@@ -321,7 +321,7 @@ export default function CaseStudies() {
                 </div>
 
 
-                <div className={'bg-secondary text-white'}>
+                <div className={'bg-secondary text-white mt-8'}>
                     <div className={'case-responsive-container'}>
                         <div className={'grid align-items-center py-8'}>
                             <div className={'lg:col-10 col-12'}>
