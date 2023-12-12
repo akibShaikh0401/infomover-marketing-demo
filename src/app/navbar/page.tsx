@@ -5,7 +5,7 @@ import {Button} from 'primereact/button';
 
 export default function Navbar() {
     return (
-        <div className={'text-black py-3'}>
+        <div className={'py-3'}>
             <div className="flex align-items-center justify-content-between">
                 <div>
                     <div>
@@ -27,13 +27,13 @@ export default function Navbar() {
                     {/*    )*/}
                     {/*})}*/}
 
-                    <div className={'mx-3 text-black text-sm'}>
+                    <div className={'mx-3 text-black text-primary text-sm'}>
                         Who we are
                     </div>
-                    <a href={'/case-studies'} className={'mx-3 no-underline text-black text-sm'}>
+                    <a href={'/case-studies'} className={'mx-3 no-underline text-primary text-sm'}>
                         Case studies
                     </a>
-                    <div className={'mx-3 cursor-pointer text-sm'}>
+                    <div className={'mx-3 cursor-pointer  text-primary text-sm'}>
                         Service
                     </div>
                 </div>
