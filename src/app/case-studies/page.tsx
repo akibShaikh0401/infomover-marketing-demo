@@ -15,7 +15,7 @@ export default function CaseStudies() {
             </div>
             <div className={'mt-5'}>
                 <div className={'grid case-responsive-container'}>
-                    <div className="lg:col-5 col-12">
+                    <div className="md:col-5 col-12">
                         <div>
 
                             <div className='marketing-hero-header text-primary line-height-2 font-semibold'>
@@ -76,8 +76,8 @@ export default function CaseStudies() {
 
                         </div>
                     </div>
-                    <div className="lg:col-7 col-12 pr-0">
-                        <div className={'py-5 pl-5 bg-primary text-right'}>
+                    <div className="md:col-7 col-12 pr-0">
+                        <div className={'py-5 pl-5 bg-gray-900 text-right'}>
                             <Image src={'/freight-page.png'}
                                    className="w-full"
                                    width="700"
@@ -87,7 +87,7 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container mt-7">
-                    <div className="xl:col-3 col-12 text-sub-header mt-2">
+                    <div className="lg:col-3 col-12 text-sub-header mt-2">
                         <div className={'py-2'}>
                             Back to top
                         </div>
@@ -102,7 +102,7 @@ export default function CaseStudies() {
                         </div>
                     </div>
 
-                    <div className="xl:col-9 col-12 border-top-3">
+                    <div className="lg:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header'}>Overview</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
@@ -125,11 +125,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container">
-                    <div className="xl:col-3 col-12">
+                    <div className="lg:col-3 col-12">
 
                     </div>
 
-                    <div className="xl:col-9 col-12 border-top-3">
+                    <div className="lg:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header mt-2'}>Problem statement</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
@@ -210,11 +210,11 @@ export default function CaseStudies() {
 
 
                 <div className="grid case-responsive-container">
-                    <div className="xl:col-3 col-12">
+                    <div className="lg:col-3 col-12">
 
                     </div>
 
-                    <div className="xl:col-9 col-12">
+                    <div className="lg:col-9 col-12">
                         <div className={'flex'}>
                             <Image src={'/quotes.svg'}
                                    className="text-left h-full"
@@ -232,11 +232,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container">
-                    <div className="xl:col-3 col-12">
+                    <div className="lg:col-3 col-12">
 
                     </div>
 
-                    <div className="xl:col-9 col-12 border-top-3">
+                    <div className="lg:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header mt-2'}>The Solution</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
@@ -304,7 +304,7 @@ export default function CaseStudies() {
                 <div className={'bg-secondary text-white'}>
                     <div className={'case-responsive-container'}>
                         <div className={'grid align-items-center py-8'}>
-                            <div className={'xl:col-10 col-12'}>
+                            <div className={'lg:col-10 col-12'}>
                                 <div className={'marketing-hero-header'}>
                                     Liked what you read?
                                 </div>
@@ -312,7 +312,7 @@ export default function CaseStudies() {
                                     Do you have a project that you need help with ?
                                 </div>
                             </div>
-                            <div className={'xl:col-2 col-12'}>
+                            <div className={'lg:col-2 col-12'}>
                                 <Button className={'text-sm font-light'} label={'Want to start a project'}
                                         icon="pi     pi-arrow-right" iconPos="right"></Button>
                             </div>
