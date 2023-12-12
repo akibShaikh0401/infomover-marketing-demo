@@ -11,7 +11,7 @@ export default function Navbar() {
                     <div>
                         <Image src={'/info-logo.png'} className={'cursor-pointer'}
                                width={170}
-                               height={50} alt=""/>
+                               height={40} alt=""/>
                         {/*<div className="text-xl cursor-pointer">*/}
                         {/*    Infomover*/}
                         {/*</div>*/}
