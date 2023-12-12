@@ -31,15 +31,15 @@ body {
     width: 100%;
     max-width: 1600px; /* You can adjust the maximum width based on your design */
     margin: 0 auto; /* Center the container */
-    padding: 60px;
+    padding-inline: 60px;
 
     /* Add responsive styles using media queries */
     @media (max-width: 600px) {
-        padding: 40px;
+        padding-inline: 40px;
     }
 
     @media (max-width: 400px) {
-        padding: 20px;
+        padding-inline: 20px;
     }
 }
 .text-gradient{

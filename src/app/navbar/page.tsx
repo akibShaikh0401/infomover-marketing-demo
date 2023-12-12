@@ -5,7 +5,7 @@ import {Button} from 'primereact/button';
 
 export default function Navbar() {
     return (
-        <div className={'text-black'}>
+        <div className={'text-black py-3'}>
             <div className="flex align-items-center justify-content-between">
                 <div>
                     <div>
