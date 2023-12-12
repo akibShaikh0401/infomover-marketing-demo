@@ -15,7 +15,7 @@ export default function CaseStudies() {
             </div>
             <div className={'mt-5'}>
                 <div className={'grid case-responsive-container'}>
-                    <div className="xl:col-5 col-12">
+                    <div className="lg:col-5 col-12">
                         <div>
 
                             <div className='marketing-hero-header text-primary line-height-2 font-semibold'>
@@ -76,11 +76,13 @@ export default function CaseStudies() {
 
                         </div>
                     </div>
-                    <div className="xl:col-7 col-12">
-                        <Image src={'/freight-page.png'}
-                               className="w-full"
-                               width="10000"
-                               height={600} alt=""/>
+                    <div className="lg:col-7 col-12 pr-0">
+                        <div className={'py-5 pl-5 bg-primary text-right'}>
+                            <Image src={'/freight-page.png'}
+                                   className="w-full"
+                                   width="700"
+                                   height={500} alt=""/>
+                        </div>
                     </div>
                 </div>
 
