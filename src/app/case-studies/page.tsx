@@ -14,7 +14,7 @@ export default function CaseStudies() {
                 <Navbar/>
             </div>
             <div className={'mt-5'}>
-                <div className={'grid case-responsive-container align-items-center mb-8 py-8'}>
+                <div className={'grid case-responsive-container align-items-center mb-8 pb-8'}>
                     <div className="md:col-5 col-12">
                         <div>
 
@@ -82,7 +82,7 @@ export default function CaseStudies() {
                                 <Image src={'/freight-page.png'}
                                        className="w-full"
                                        width="10000"
-                                       height={500} alt=""/>
+                                       height={400} alt=""/>
                             </div>
 
                             <div className={'lg:hidden flex'}>
