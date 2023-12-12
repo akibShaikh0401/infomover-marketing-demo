@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div>
                     <div>
                         <Image src={'/info-logo.png'} className={'cursor-pointer'}
-                               width={150}
+                               width={170}
                                height={50} alt=""/>
                         {/*<div className="text-xl cursor-pointer">*/}
                         {/*    Infomover*/}

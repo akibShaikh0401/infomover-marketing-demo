@@ -31,7 +31,7 @@ body {
     width: 100%;
     max-width: 1600px; /* You can adjust the maximum width based on your design */
     margin: 0 auto; /* Center the container */
-    padding-inline: 60px;
+    padding-inline: 80px;
 
     /* Add responsive styles using media queries */
     @media (max-width: 600px) {
