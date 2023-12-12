@@ -98,7 +98,7 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container mt-8 pb-8">
-                    <div className="lg:col-3 col-12 text-sub-header mt-2">
+                    <div className="lg:col-3 col-12 text-sub-header mt-2 pt-3">
                         <div className={'py-2'}>
                             Back to top
                         </div>
@@ -114,7 +114,7 @@ export default function CaseStudies() {
                     </div>
 
                     <div className="lg:col-9 col-12 border-top-3">
-                        <div className={'marketing-content-header'}>Overview</div>
+                        <div className={'marketing-content-header pt-3'}>Overview</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
                             We built this platform for transform technologies which is a sister company (Information
@@ -128,10 +128,19 @@ export default function CaseStudies() {
 
                 <div className="grid mt-8">
                     <div className="col-12">
-                        <Image src={'/containers.png'}
-                               className="w-full"
-                               width="10000"
-                               height={700} alt=""/>
+                        <div className={'lg:flex hidden'}>
+                            <Image src={'/containers.png'}
+                                   className="w-full"
+                                   width="10000"
+                                   height={700} alt=""/>
+                        </div>
+
+                        <div className={'lg:hidden flex'}>
+                            <Image src={'/containers.png'}
+                                   className="w-full"
+                                   width="10000"
+                                   height={250} alt=""/>
+                        </div>
                     </div>
                 </div>
 
