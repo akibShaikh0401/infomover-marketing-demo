@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react';
 import {Button} from 'primereact/button';
 import Navbar from "@/app/navbar/page";
+import Footer from "@/app/footer/page";
 
 export default function Home() {
     return (
@@ -273,7 +274,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
+            <div className={'bg-primary-50'}>
+                <div className="responsive-container">
+                    <Footer/>
+                </div>
+            </div>
 
         </>
     )

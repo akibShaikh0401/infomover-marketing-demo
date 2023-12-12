@@ -38,7 +38,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className={'xl:flex hidden'}>
-                    <Button className={'text-sm'} label={'Sign In'}></Button>
+                    <Button className={'text-sm font-light'} label={'Get in touch'}></Button>
                 </div>
             </div>
         </div>

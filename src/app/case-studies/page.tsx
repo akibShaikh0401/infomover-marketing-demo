@@ -4,6 +4,7 @@ import React from 'react';
 import {Button} from 'primereact/button';
 import {Chip} from 'primereact/chip';
 import Navbar from "@/app/navbar/page";
+import Footer from "@/app/footer/page";
 
 
 export default function CaseStudies() {
@@ -14,7 +15,7 @@ export default function CaseStudies() {
             </div>
             <div className={'mt-5'}>
                 <div className={'grid case-responsive-container'}>
-                    <div className="col-5">
+                    <div className="xl:col-5 col-12">
                         <div>
 
                             <div className='marketing-hero-header text-primary line-height-2 font-semibold'>
@@ -75,7 +76,7 @@ export default function CaseStudies() {
 
                         </div>
                     </div>
-                    <div className="col-7">
+                    <div className="xl:col-7 col-12">
                         <Image src={'/freight-page.png'}
                                className="w-full"
                                width="10000"
@@ -84,7 +85,7 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container mt-7">
-                    <div className="col-3 text-sub-header mt-2">
+                    <div className="xl:col-3 col-12 text-sub-header mt-2">
                         <div className={'py-2'}>
                             Back to top
                         </div>
@@ -99,7 +100,7 @@ export default function CaseStudies() {
                         </div>
                     </div>
 
-                    <div className="col-9 border-top-3">
+                    <div className="xl:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header'}>Overview</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
@@ -122,11 +123,11 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container">
-                    <div className="col-3">
+                    <div className="xl:col-3 col-12">
 
                     </div>
 
-                    <div className="col-9 border-top-3">
+                    <div className="xl:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header mt-2'}>Problem statement</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
@@ -134,12 +135,18 @@ export default function CaseStudies() {
                             created/updated in OTM must be available on the platform.
                         </div>
 
-                        <div className={'mt-6 text-gradient text-xl'}>
+                        <div className={'mt-6 text-primary text-xl'}>
                             THE ASK
                         </div>
 
                         <div className="grid text-gray-600 mt-2">
-                            <div className="col-7">
+                            <div className="col-12 xl:hidden">
+                                <div
+                                    className={'border-left-3 border-primary pl-3 marketing-content-header text-primary font-light'}>
+                                    A customer portal for container business.
+                                </div>
+                            </div>
+                            <div className="xl:col-7 col-12">
 
                                 <div className={'line-height-4'}>
                                     Many of the bookings that the customers did were repeat bookings. So a copy booking
@@ -187,9 +194,9 @@ export default function CaseStudies() {
 
                             </div>
                             <div className="col-1"></div>
-                            <div className="col-4">
+                            <div className="xl:col-4">
                                 <div
-                                    className={'border-left-3 border-primary pl-3 marketing-content-header text-primary font-light'}>
+                                    className={'border-left-3 border-primary pl-3 marketing-content-header text-primary font-light xl:flex hidden'}>
                                     A customer portal for container business.
                                 </div>
                             </div>
@@ -201,11 +208,11 @@ export default function CaseStudies() {
 
 
                 <div className="grid case-responsive-container">
-                    <div className="col-3">
+                    <div className="xl:col-3 col-12">
 
                     </div>
 
-                    <div className="col-9">
+                    <div className="xl:col-9 col-12">
                         <div className={'flex'}>
                             <Image src={'/quotes.svg'}
                                    className="text-left h-full"
@@ -213,7 +220,7 @@ export default function CaseStudies() {
                                    height={100} alt=""/>
                         </div>
                         <div className={'marketing-content-header font-light text-primary mt-3'}>
-                            As the company's CIO, this was the first project I gave to Infomover Technologies. They did
+                            {/*As the company's CIO, this was the first project I gave to Infomover Technologies. They did*/}
                             a
                             wonderful job and then, there was no looking back. We have been hiring them for various
                             projects
@@ -223,20 +230,16 @@ export default function CaseStudies() {
                 </div>
 
                 <div className="grid case-responsive-container">
-                    <div className="col-3">
+                    <div className="xl:col-3 col-12">
 
                     </div>
 
-                    <div className="col-9 border-top-3">
+                    <div className="xl:col-9 col-12 border-top-3">
                         <div className={'marketing-content-header mt-2'}>The Solution</div>
 
                         <div className={'text-gray-600 text-title font-light mt-3'}>
                             One of the biggest ask was to integrate the platform with OTM such that any new shipments
                             created/updated in OTM must be available on the platform.
-                        </div>
-
-                        <div className={'mt-6 text-gradient text-xl'}>
-                            THE ASK
                         </div>
 
                         <div className="grid text-gray-600 mt-2">
@@ -293,10 +296,33 @@ export default function CaseStudies() {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
+
+                <div className={'bg-secondary text-white'}>
+                    <div className={'case-responsive-container'}>
+                        <div className={'grid align-items-center py-8'}>
+                            <div className={'xl:col-10 col-12'}>
+                                <div className={'marketing-hero-header'}>
+                                    Liked what you read?
+                                </div>
+                                <div className={'marketing-content-header'}>
+                                    Do you have a project that you need help with ?
+                                </div>
+                            </div>
+                            <div className={'xl:col-2 col-12'}>
+                                <Button className={'text-sm font-light'} label={'Want to start a project'}
+                                        icon="pi     pi-arrow-right" iconPos="right"></Button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className={'bg-primary-50'}>
+                <div className="case-responsive-container">
+                    <Footer/>
+                </div>
             </div>
         </>
     );
