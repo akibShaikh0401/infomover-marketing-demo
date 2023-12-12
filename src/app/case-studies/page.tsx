@@ -14,7 +14,7 @@ export default function CaseStudies() {
                 <Navbar/>
             </div>
             <div className={'mt-5'}>
-                <div className={'grid case-responsive-container align-items-center'}>
+                <div className={'grid case-responsive-container align-items-center mb-8 py-8'}>
                     <div className="md:col-5 col-12">
                         <div>
 
@@ -82,7 +82,7 @@ export default function CaseStudies() {
                                 <Image src={'/freight-page.png'}
                                        className="w-full"
                                        width="10000"
-                                       height={400} alt=""/>
+                                       height={500} alt=""/>
                             </div>
 
                             <div className={'lg:hidden flex'}>
@@ -97,7 +97,7 @@ export default function CaseStudies() {
                     </div>
                 </div>
 
-                <div className="grid case-responsive-container mt-7">
+                <div className="grid case-responsive-container mt-8 pb-8">
                     <div className="lg:col-3 col-12 text-sub-header mt-2">
                         <div className={'py-2'}>
                             Back to top
@@ -126,7 +126,7 @@ export default function CaseStudies() {
                     </div>
                 </div>
 
-                <div className="grid mt-3">
+                <div className="grid mt-8">
                     <div className="col-12">
                         <Image src={'/containers.png'}
                                className="w-full"
@@ -233,7 +233,7 @@ export default function CaseStudies() {
                                    height={100} alt=""/>
                         </div>
                         <div className={'marketing-content-header font-light text-primary mt-3'}>
-                            {/*As the company's CIO, this was the first project I gave to Infomover Technologies. They did*/}
+                            As the company's CIO, this was the first project I gave to Infomover Technologies. They did
                             a
                             wonderful job and then, there was no looking back. We have been hiring them for various
                             projects
