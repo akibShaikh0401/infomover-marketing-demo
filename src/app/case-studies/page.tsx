@@ -132,7 +132,7 @@ export default function CaseStudies() {
                             <Image src={'/containers.png'}
                                    className="w-full"
                                    width="10000"
-                                   height={700} alt=""/>
+                                   height={500} alt=""/>
                         </div>
 
                         <div className={'lg:hidden flex'}>
