@@ -31,7 +31,7 @@ export default function CaseStudies() {
                             <div className='grid mt-2 text-gray-700'>
 
                                 <div className={'col-7'}>
-                                    <div className={'font-medium text-normal'}>
+                                    <div className={'font-medium text-default '}>
                                         CLIENT
                                     </div>
                                     <div className={'font-light text-xl'}>
@@ -39,7 +39,7 @@ export default function CaseStudies() {
                                     </div>
                                 </div>
                                 <div className={'col-5'}>
-                                    <div className={'font-medium text-normal'}>
+                                    <div className={'font-medium text-default '}>
                                         INDUSTRY
                                     </div>
                                     <div className={'font-light text-xl'}>
@@ -49,7 +49,7 @@ export default function CaseStudies() {
                             </div>
 
                             <div>
-                                <div className={'font-medium text-normal mt-4 text-gray-700'}>
+                                <div className={'font-medium text-default  mt-4 text-gray-700'}>
                                     CORE TECHNOLOGIES
                                 </div>
                                 <div className={'mt-3'}>
