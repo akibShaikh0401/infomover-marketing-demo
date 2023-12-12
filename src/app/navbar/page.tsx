@@ -5,16 +5,16 @@ import {Button} from 'primereact/button';
 
 export default function Navbar() {
     return (
-        <div className={'py-3'}>
+        <div className={'py-4'}>
             <div className="flex align-items-center justify-content-between">
                 <div>
                     <div>
-                        {/*<Image onClick={() => router.push('/')} src={'/vercel.svg'} className={'cursor-pointer'}*/}
-                        {/*       width={100}*/}
-                        {/*       height={70} alt=""/>*/}
-                        <div className="text-xl cursor-pointer">
-                            Infomover
-                        </div>
+                        <Image src={'/info-logo.png'} className={'cursor-pointer'}
+                               width={150}
+                               height={50} alt=""/>
+                        {/*<div className="text-xl cursor-pointer">*/}
+                        {/*    Infomover*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <div className={'xl:flex hidden align-items-center'}>
