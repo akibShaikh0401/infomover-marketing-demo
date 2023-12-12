@@ -1,0 +1,76 @@
+@function calculate-shade($color, $percentage) {
+  @return mix(#fff, $color, $percentage);
+}
+
+$neutral800: #172B4D;
+$menuTextColor: #97A0AF;
+$bodyBackground: #F7F8FA;
+
+$primaryColor: #fc0000;
+$secondaryColor: #151515;
+$inputBorderColor: #cccccc;
+$info: #4DA2F8;
+$help: #3f51b5;
+$success: #21933F;
+$warning: #f57a0e;
+$danger: #FF4040;
+$light: #ffffff;
+$dark: #000000;
+$gradientPrimaryButton: linear-gradient(102.57deg, #dc0916 0%, #ff22b1 100%) !important;
+
+$plannedBgColor: #BFEBFF;
+$plannedTextColor: #1D69B6;
+
+$inTransitBgColor: #D1BFF9;
+$inTransitTextColor: #1D1C39;
+
+$completedBgColor: #F8CAE8;
+$completedTextColor: $primaryColor;
+
+// Filter Properties
+$successFilter: invert(37%) sepia(96%) saturate(401%) hue-rotate(84deg) brightness(101%) contrast(86%);
+
+
+$grayBg: #E6E6E6;
+$grayBorder: #D0D0D0;
+$grayLight: #f5f5f5;
+
+$onTimeText: #108414;
+$onTimeBorder: #17B61D;
+$onTimeBg: #BEF394;
+
+$delayText: #815C25;
+$delayBorder: #E29829;
+$delayBg: #F2DCA1;
+
+$maxDelayText: #CF2E18;
+$maxDelayBorder: $maxDelayText;
+$maxDelayBg: #FFDFDF;
+
+$notificationListBg: #F4F5FA;
+
+//Primary color variations
+$primaryBoxShadow: lighten($primaryColor, 19%); //#ea7bb4
+$primaryColor-17: lighten($primaryColor, 17%); //#ee6db0
+$primaryDarkColor: darken($primaryColor, 10%); //#bd136a
+$primaryHoverColor: darken($primaryColor, 5%); //#d41677
+
+$primary-50: calculate-shade($primaryColor, 90%);
+$primary-100: calculate-shade($primaryColor, 80%);
+$primary-200: calculate-shade($primaryColor, 70%);
+$primary-300: calculate-shade($primaryColor, 60%);
+$primary-400: calculate-shade($primaryColor, 50%);
+$primary-500: $primaryColor;
+$primary-600: calculate-shade($primaryColor, 40%);
+$primary-700: calculate-shade($primaryColor, 30%);
+$primary-800: calculate-shade($primaryColor, 20%);
+$primary-900: calculate-shade($primaryColor, 10%);
+
+//Secondary color variations
+$secondaryButtonHover: #{$secondaryColor}0a; //#22185B0a
+$secondaryButtonActive: #{$secondaryColor}29; //#22185B29
+$secondaryDarkColor: darken($secondaryColor, 3%);
+$secondaryBoxShadow: lighten($secondaryColor, 48%);
+
+$secondaryBg: #{$secondaryColor}
+

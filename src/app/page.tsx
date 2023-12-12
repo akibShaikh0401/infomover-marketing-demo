@@ -6,7 +6,7 @@ import {Button} from 'primereact/button';
 export default function Home() {
     return (
         <>
-            <div className={'bg-secondary responsive-container text-black'}>
+            <div className={'responsive-container text-black'}>
                 <div className="flex align-items-center justify-content-between">
                     <div>
                         <div>
@@ -71,15 +71,15 @@ export default function Home() {
                                     and create <span className='font-semibold'>more efficient processes.</span>
                                 </div>
                                 <div className='flex gap-3'>
-                                    <div>
-                                        <Button label="Try for Demo"
-                                                className='text-sm font-bold     py-3 px-6' size="large"/>
-                                    </div>
-                                    <div>
-                                        <Button label="Book a Demo" size="large"
-                                                className='p-button-outlined border-round text-sm  font-bold py-3 px-6 '/>
+                                    {/*<div>*/}
+                                    {/*    <Button label="Try for Demo"*/}
+                                    {/*            className='text-sm font-bold     py-3 px-6' size="large"/>*/}
+                                    {/*</div>*/}
+                                    {/*<div>*/}
+                                    {/*    <Button label="Book a Demo" size="large"*/}
+                                    {/*            className='p-button-outlined border-round text-sm  font-bold py-3 px-6 '/>*/}
 
-                                    </div>
+                                    {/*</div>*/}
                                 </div>
 
                             </div>
@@ -313,7 +313,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="surface-ground">
+            <div className="bg-primary-50">
                 <div className='responsive-container'>
                     <div className='grid text-xs'>
                         <div className='col-2 mt-3'>
@@ -343,18 +343,18 @@ export default function Home() {
 
                             <div className='lg:col-3 col-12 flex justify-content-end mr-5 mt-2 gap-2 text-sm'>
 
-                                <div>
-                                    <Button icon="pi pi-facebook" rounded outlined aria-label="Filter"/>
-                                </div>
-                                <div>
-                                    <Button icon="pi pi-twitter" rounded outlined aria-label="Filter"/>
-                                </div>
-                                <div>
-                                    <Button icon="pi-linkedin" rounded outlined aria-label="Filter"/>
-                                </div>
-                                <div>
-                                    <Button icon="pi pi-youtube" rounded outlined aria-label="Filter"/>
-                                </div>
+                                {/*<div>*/}
+                                {/*    <Button icon="pi pi-facebook" rounded outlined aria-label="Filter"/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <Button icon="pi pi-twitter" rounded outlined aria-label="Filter"/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <Button icon="pi-linkedin" rounded outlined aria-label="Filter"/>*/}
+                                {/*</div>*/}
+                                {/*<div>*/}
+                                {/*    <Button icon="pi pi-youtube" rounded outlined aria-label="Filter"/>*/}
+                                {/*</div>*/}
 
                             </div>
 

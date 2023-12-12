@@ -1,7 +1,8 @@
 @import "/src/theme/theme_variables";
+@import "/src/theme/color_variables";
 
 .bg-secondary {
-  //background: $secondaryColor;
+  background: $secondaryColor;
 }
 
 .close-button {
