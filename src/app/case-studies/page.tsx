@@ -80,8 +80,8 @@ export default function CaseStudies() {
                         <div className={'py-5 pl-5 bg-gray-900 text-right'}>
                             <Image src={'/freight-page.png'}
                                    className="w-full"
-                                   width="700"
-                                   height={500} alt=""/>
+                                   width="10000"
+                                   height={360} alt=""/>
                         </div>
                     </div>
                 </div>
