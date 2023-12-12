@@ -14,7 +14,7 @@ export default function CaseStudies() {
                 <Navbar/>
             </div>
             <div className={'mt-5'}>
-                <div className={'grid case-responsive-container align-items-center mb-8 pb-8'}>
+                <div className={'grid case-responsive-container align-items-center mb-8 pb-8 pt-4'}>
                     <div className="md:col-5 col-12">
                         <div>
 
